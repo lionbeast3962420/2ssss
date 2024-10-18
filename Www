@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizations Supporting Neurodivergent Inclusion</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ffecd2 0%, #237CA1 20%, #17C5B2 40%, #FECC76 60%, #FEF9ED 80%, #FF6F75 100%);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 30px;
+            opacity: 0.9;
+            background-color: #dcc88b;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #2F2F2F;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .organization {
+            margin: 40px 0;
+            padding: 30px;
+            background: #dcc88b;
+            border-radius: 10px;
+            transition: transform 0.3s, background 0.3s;
+            display: flex;
+            align-items: center;
+        }
+
+        .organization:hover {
+            transform: scale(1.05);
+            background: #cfbb8e;
+        }
+
+        .logo {
+            flex: 1;
+            text-align: left;
+        }
+
+        .logo img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .info {
+            flex: 3;
+            text-align: left;
+            padding-left: 30px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        h2 a {
+            text-decoration: none;
+            color: #2b3966;
+            transition: color 0.3s;
+        }
+
+        h2 a:hover {
+            color: #ff6363;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .impact {
+            font-style: italic;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 1em;
+            color: #888;
+            text-align: center;
+        }
+
+        .footer p {
+            color: #2F2F2F;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Organizations Supporting Neurodivergent Inclusion</h1>
+
+    <div class="organization">
+        <div class="logo">
+            <a href="https://autisticadvocacy.org/" target="_blank">
+                <img src="https://autisticadvocacy.org/wp-content/uploads/elementor/thumbs/ASAN-logo-sm-pkkav3p0lhtl5pji4glo1k7t2fj415qpycass565cw.png" alt="ASAN Logo">
+            </a>
+        </div>
+        <div class="info">
+            <h2><a href="https://autisticadvocacy.org/" target="_blank">1. Autistic Self Advocacy Network (ASAN)</a></h2>
+            <p><strong>Mission:</strong> ASAN is led by neurodivergent individuals. They work to empower neurodivergent people to make their own decisions and advocate for their rights.</p>
+            <p><strong>What They Do:</strong> ASAN provides an abundance of resources for self-advocacy, offer guidance on policy reform, and promote societal acceptance of neurodiversity.</p>
+            <p class="impact"><strong>Unique Factor:</strong> ASAN is run entirely by individuals on the spectrum, offering a truly authentic voice for the neurodivergent community.</p>
+        </div>
+    </div>
+
+    <div class="organization">
+        <div class="logo">
+            <a href="https://neurodiversityintheworkplace.org/" target="_blank">
+                <img src="https://nitw.org/wp-content/uploads/2021/10/NEW_nitw_header-logo.png" alt="Neurodiversity in the Workplace Logo">
+            </a>
+        </div>
+        <div class="info">
+            <h2><a href="https://neurodiversityintheworkplace.org/" target="_blank">2. Neurodiversity in the Workplace</a></h2>
+            <p><strong>Mission:</strong> NITW help organizations create employment opportunities for neurodivergent individuals.</p>
+            <p><strong>What They Do:</strong> NITW works with companies to create more inclusive hiring practices, provide job coaching, and offer specially tailored training to help integrate neurodivergent individuals into the workplace.</p>
+            <p class="impact"><strong>Unique Factor:</strong> NITW focuses exclusively on connecting neurodivergent individuals with employers. They work to reshape workplaces to better support neurodiversity and promote long term career success.</p>
+        </div>
+    </div>
+
+    <div class="organization">
+        <div class="logo">
+            <a href="https://thearc.org/" target="_blank">
+                <img src="https://thearc.org/wp-content/uploads/2019/07/ArcLogo_Color_Rev_PNG_WEB.png" alt="The Arc Logo">
+            </a>
+        </div>
+        <div class="info">
+            <h2><a href="https://thearc.org/" target="_blank">3. The Arc</a></h2>
+            <p><strong>Mission:</strong> The Arc advocates for the rights of people with intellectual and developmental disabilities (IDD).</p>
+            <p><strong>What They Do:</strong> The Arc provides support services, legal advocacy, and many other resources to promote inclusion and accessibility in education, employment, and daily life.</p>
+            <p class="impact"><strong>Unique Factor:</strong> The Arc is one of the largest organizations that serves people with intellectual disabilities. They also offer a powerful voice for inclusion on a national level. Their vast reach allows them to influence policies on a broad scale.</p>
+        </div>
+    </div>
+
+    <div class="organization">
+        <div class="logo">
+            <a href="https://www.understood.org/" target="_blank">
+             <svg width="200" height="64" viewBox="0 0 200 64" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_13151_136)"><path d="M41.5324 17.5312V9.65161H43.8178V17.5312C43.8178 18.9075 44.9348 20.0602 46.3094 20.0602C47.6841 20.0602 48.801 18.9075 48.801 17.5312V9.65161H51.0521V17.5312C51.0521 20.0946 48.9213 22.1764 46.3094 22.1764C43.6804 22.1764 41.5324 20.0946 41.5324 17.5312Z"></path><path d="M52.8735 13.3679H55.1245V14.5722C55.6057 13.7464 56.5851 13.2302 57.8052 13.2302C59.7469 13.2302 61.0185 14.641 61.0185 16.6539V22.0388H58.7674V17.1356C58.7674 16.0345 58.0629 15.2431 57.0319 15.2431C55.915 15.2431 55.1245 16.1033 55.1245 17.2904V22.0388H52.8735V13.3679Z"></path><path d="M71.9472 20.1636V22.0388H71.4145C70.1085 22.0388 69.3868 21.5571 69.1291 20.7485C68.5448 21.7464 67.3935 22.1765 66.4656 22.1765C63.9225 22.1765 62.3932 20.37 62.3932 17.7033C62.3932 15.0367 63.9225 13.2302 66.4656 13.2302C67.5138 13.2302 68.4761 13.7291 68.9229 14.5033V9.63452H71.1739V19.5442C71.1739 19.9227 71.3801 20.1636 71.7066 20.1636H71.9472ZM69.0775 17.7033C69.0775 16.1722 68.184 15.1743 66.8437 15.1743C65.5034 15.1743 64.6098 16.1722 64.6098 17.7033C64.6098 19.2345 65.5034 20.2324 66.8437 20.2324C68.184 20.2324 69.0775 19.2345 69.0775 17.7033Z"></path><path d="M81.1403 18.1851H74.8511C75.0058 19.4926 75.8306 20.3184 77.1022 20.3184C78.1332 20.3184 78.8034 19.9055 79.0096 19.1141L81.1059 19.5614C80.6076 21.1614 79.0783 22.1765 77.1022 22.1765C74.2153 22.1765 72.686 19.9055 72.686 17.6861C72.686 15.4324 74.0607 13.2302 76.9475 13.2302C79.9203 13.2302 81.1738 15.4152 81.1738 17.4281C81.1738 17.755 81.1575 18.013 81.1403 18.1851ZM78.9236 16.7227C78.8549 15.7076 78.1504 14.899 76.9475 14.899C75.8134 14.899 75.1089 15.4668 74.8855 16.7227H78.9236Z"></path><path d="M86.6382 15.2601C85.3666 15.2601 84.8339 16.3268 84.8339 17.8752V22.0386H82.5829V13.3677H84.8339V14.8472C85.2807 13.7634 85.9508 13.3677 87.0334 13.3677H88.03V15.2601H86.6382Z"></path><path d="M88.5112 19.5442L90.4185 19.1485C90.5216 19.9571 91.1402 20.456 92.1369 20.456C92.893 20.456 93.4256 20.0603 93.4256 19.5442C93.4256 17.6689 88.7174 19.3722 88.7174 15.7937C88.7174 14.2969 90.0233 13.2302 91.8104 13.2302C93.7006 13.2302 95.0065 14.1593 95.2986 15.656L93.3741 16.0689C93.2538 15.2431 92.5321 14.8302 91.8619 14.8302C91.1402 14.8302 90.6419 15.1743 90.6419 15.7076C90.6419 17.4969 95.4361 15.5528 95.4361 19.4754C95.4361 21.1098 94.113 22.1765 92.0853 22.1765C90.1608 22.1765 88.8033 21.1614 88.5112 19.5442Z"></path><path d="M100.058 10.7871V13.3678H102.43V15.2602H100.058V18.8559C100.058 19.7161 100.522 20.1462 101.296 20.1462H102.43V22.0387H101.021C99.079 22.0387 97.8074 20.9204 97.8074 18.9419V15.2602H96.1234V13.3678H97.8074V10.7871H100.058Z"></path><path d="M103.134 17.7033C103.134 15.1227 105.024 13.2302 107.671 13.2302C110.317 13.2302 112.224 15.1227 112.224 17.7033C112.224 20.284 110.317 22.1765 107.671 22.1765C105.024 22.1765 103.134 20.284 103.134 17.7033ZM109.956 17.7033C109.956 16.2066 109.045 15.1743 107.671 15.1743C106.313 15.1743 105.402 16.2066 105.402 17.7033C105.402 19.2001 106.313 20.2324 107.671 20.2324C109.045 20.2324 109.956 19.2001 109.956 17.7033Z"></path><path d="M113.153 17.7033C113.153 15.1227 115.043 13.2302 117.69 13.2302C120.336 13.2302 122.243 15.1227 122.243 17.7033C122.243 20.284 120.336 22.1765 117.69 22.1765C115.043 22.1765 113.153 20.284 113.153 17.7033ZM119.975 17.7033C119.975 16.2066 119.064 15.1743 117.69 15.1743C116.332 15.1743 115.421 16.2066 115.421 17.7033C115.421 19.2001 116.332 20.2324 117.69 20.2324C119.063 20.2324 119.974 19.2001 119.974 17.7033H119.975Z"></path><path d="M132.724 20.1636V22.0388H132.192C130.886 22.0388 130.164 21.5571 129.906 20.7485C129.322 21.7464 128.171 22.1765 127.243 22.1765C124.7 22.1765 123.17 20.37 123.17 17.7033C123.17 15.0367 124.7 13.2302 127.243 13.2302C128.291 13.2302 129.253 13.7291 129.7 14.5033V9.63452H131.951V19.5442C131.951 19.9227 132.157 20.1636 132.484 20.1636H132.724ZM129.855 17.7033C129.855 16.1722 128.961 15.1743 127.621 15.1743C126.28 15.1743 125.387 16.1722 125.387 17.7033C125.387 19.2345 126.28 20.2324 127.621 20.2324C128.961 20.2324 129.855 19.2345 129.855 17.7033Z"></path><path d="M10.9544 20.0027L10.9123 20.0182C11.4168 20.7851 12.0869 21.4287 12.8731 21.9014C13.6593 22.3741 14.5417 22.6639 15.4548 22.7494C14.5478 22.6555 13.6732 22.3603 12.8947 21.8851C12.1161 21.41 11.4533 20.7669 10.9544 20.0027Z"></path><path d="M15.6034 22.7639L15.7108 22.7691C15.6249 22.7639 15.5442 22.7579 15.4608 22.7493C15.5089 22.7544 15.5553 22.7604 15.6034 22.7639Z"></path><path d="M30.2102 14.7958C28.3527 12.2564 28.3527 12.2495 28.6448 9.3704C28.6448 9.36094 28.6448 9.35233 28.6448 9.34201C28.7759 8.05567 28.6128 6.75634 28.1681 5.54243C27.7233 4.32853 27.0084 3.23188 26.0776 2.33556C25.0051 1.28372 23.6721 0.536962 22.2156 0.172119V16.6427C22.2156 18.2707 21.5697 19.832 20.4199 20.9832C19.2701 22.1344 17.7106 22.7812 16.0846 22.7812C16.0399 22.7812 15.9987 22.7812 15.9523 22.7812H15.8663L15.7134 22.7751L15.606 22.77C15.5579 22.77 15.5115 22.7605 15.4634 22.7553H15.4574C14.5431 22.6697 13.6598 22.3792 12.8729 21.9054C12.086 21.4316 11.4156 20.7866 10.9115 20.0181L10.9536 20.0027C10.2988 19.0048 9.95052 17.8366 9.95179 16.6427V3.36524L9.5686 3.32653H9.54025C7.84587 3.15933 6.14031 3.5042 4.64355 4.31666C3.14678 5.12913 1.92745 6.37193 1.14282 7.88478C0.358186 9.39762 0.0442355 11.1111 0.241457 12.8043C0.438678 14.4975 1.13803 16.0927 2.24931 17.3842C3.82503 19.5467 3.80613 19.699 3.53291 22.425V22.4293V22.4569C3.36174 24.1142 3.68084 25.7853 4.45054 27.2625C5.22024 28.7397 6.40659 29.9579 7.86212 30.7655C9.31766 31.5732 10.9782 31.9347 12.6373 31.8052C14.2964 31.6757 15.8808 31.0608 17.1938 30.0371C19.7318 28.1738 19.7386 28.1799 22.6143 28.4689H22.6186H22.6461C24.3014 28.6403 25.9705 28.3208 27.4459 27.5502C28.9213 26.7795 30.138 25.5917 30.9447 24.1344C31.7513 22.6771 32.1125 21.0146 31.9831 19.3535C31.8537 17.6924 31.2396 16.106 30.2171 14.7915L30.2102 14.7958Z"></path><path d="M15.8638 22.7751C15.8131 22.7751 15.7615 22.7751 15.7108 22.769L15.8638 22.7751Z"></path></g><defs><clipPath id="clip0_13151_136"><rect width="133" height="32" fill="white"></rect></clipPath></defs></svg>
+        </div>
+        <div class="info">
+            <h2><a href="https://www.understood.org/" target="_blank">4. Understood.org</a></h2>
+            <p><strong>Mission:</strong> Understood empowers people with differences in learning and thinking, such as ADHD and dyslexia, to thrive in education and life.</p>
+            <p><strong>What They Do:</strong> Understood provides resources for parents, educators, and individuals that supports learning needs, offers insights on inclusive education, and helps build stronger communities for neurodivergent individuals.</p>
+            <p class="impact"><strong>Unique Factor:</strong> Understood focuses on personalized and accessible resources making Understood an essential platform for families facing learning and attention challenges.</p>
+        </div>
+    </div>
+
+    <div class="organization">
+        <div class="logo">
+            <a href="https://www.ncld.org/" target="_blank">
+                <img src="https://www.ncld.org/wp-content/themes/ncld/img/header-logo.svg" alt="NCLD Logo">
+            </a>
+        </div>
+        <div class="info">
+            <h2><a href="https://www.ncld.org/" target="_blank">5. National Center for Learning Disabilities (NCLD)</a></h2>
+            <p><strong>Mission:</strong> NCLD aims to improve the lives of 1 in 5 people with learning and attention difficulties.</p>
+            <p><strong>What They Do:</strong> NCLD advocates for policies that promote proper education, conduct research to create best practices, and provides resources to help individuals overcome learning disabilities in school and life.</p>
+            <p class="impact"><strong>Unique Factor:</strong> NCLD's policy work on educational reform ensures that students with learning disabilities receive the support they need for success.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>“Inclusion stars with understanding and support. These organizations lead the way in empowering neurodivergent individuals.”</p>
+    </div>
+</div>
+
+</body>
+</html>
